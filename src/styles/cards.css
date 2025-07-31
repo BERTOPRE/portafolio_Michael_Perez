@@ -1,0 +1,18 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  border-style: solid;
+  border-color: gray;
+}
+
+.cards-portafolio {
+  border-style: solid;
+  border-color: black;
+}
+.cards-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

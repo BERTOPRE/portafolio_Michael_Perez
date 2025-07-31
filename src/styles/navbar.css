@@ -1,0 +1,57 @@
+/*
+Estilos para barra de navegación
+*/
+
+.navbar {
+  background: rgba(0, 0, 0, 0.432);
+  backdrop-filter: blur(20px);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 199;
+}
+#navbarNav {
+  height: auto;
+  gap: 10px;
+}
+
+.navbar-nav {
+  gap: 10px;
+}
+.navbar-brand {
+  color: white;
+}
+.navbar-toggler-icon {
+  color: white;
+  background-color: white;
+}
+.nav-link {
+  color: white;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.nav-link:hover {
+  color: var(--accent-color);
+}
+.collapse {
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 10px 50px 10px 50px;
+  font-size: 16px;
+  color: black;
+  background-color: var(--secondary-color);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  border-style: none;
+}
+
+.btn:hover {
+  background-color: var(--default-color);
+}
