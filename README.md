@@ -1,40 +1,23 @@
-<<<<<<< HEAD
-# app-vue
+# Portafolio de Michael Alberto Pérez Tautiu
 
-This template should help get you started developing with Vue 3 in Vite.
+Este es mi portafolio personal desarrollado con Vue 3 y Vite. Aquí presento mis proyectos, habilidades y experiencia como desarrollador de software, combinando mi formación en Investigación Criminal y mi pasión por la tecnología.
 
-## Recommended IDE Setup
+## Características
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Interfaz moderna y responsiva
+- Sección de proyectos destacados
+- Información de contacto y redes sociales
+- Estilo personalizado en azul y negro, con temática de lobo e investigación
 
-## Customize configuration
+## Tecnologías utilizadas
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- HTML, CSS, JavaScript
 
-## Project Setup
+## Instalación y ejecución
 
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-=======
-# portafolio_Michael_P-rez
-my personal portfolio
->>>>>>> 5d78ecd41c6defb156b9266bc718fa6fecb7581a
