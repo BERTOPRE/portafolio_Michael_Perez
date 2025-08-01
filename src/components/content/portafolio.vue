@@ -6,16 +6,37 @@
     </div>
 
     <div class="cards">
-      <h2>Empresas</h2>
+      <h2>WEB</h2>
       <div class="cards-items">
         <div class="cards-portafolio">
-          <h2>tarjeta 1</h2>
+          <img src="@/assets/imgs/proyectos/proyecto-1.png" alt="imagen de proyecto" />
+          <h4>Moveco</h4>
         </div>
         <div class="cards-portafolio">
-          <h2>tarjeta 2</h2>
+          <img src="@/assets/imgs/proyectos/proyecto-2.png" alt="imagen de proyecto" />
+          <h4>WaterProof</h4>
         </div>
         <div class="cards-portafolio">
-          <h2>tarjeta 3</h2>
+          <img src="@/assets/imgs/proyectos/proyecto-3.png" alt="imagen de proyecto" />
+          <h4>TillyBallons</h4>
+        </div>
+        <div class="cards-portafolio">
+          <img src="@/assets/imgs/proyectos/construction.svg" alt="imagen de proyecto" />
+          <h4>Gibor</h4>
+        </div>
+        <div class="cards-portafolio">
+          <img src="@/assets/imgs/proyectos/construction.svg" alt="imagen de proyecto" />
+          <h4>Andrea Batres</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <h2>APPS</h2>
+      <div class="cards-items">
+        <div class="cards-portafolio">
+          <img src="@/assets/imgs/proyectos/proyecto-1.png" alt="imagen de proyecto" />
+          <p>FinanzApp</p>
         </div>
       </div>
     </div>

@@ -3,13 +3,9 @@
   flex-direction: column;
   gap: 10px;
   justify-content: center;
-  border-style: solid;
-  border-color: gray;
 }
 
 .cards-portafolio {
-  border-style: solid;
-  border-color: black;
 }
 .cards-items {
   display: flex;
