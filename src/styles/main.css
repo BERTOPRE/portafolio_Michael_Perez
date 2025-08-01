@@ -51,6 +51,30 @@ h2 {
 h1 {
   font-size: 4.375rem;
 }
+.title-cards {
+  font-size: 2.75rem;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 800;
+  color: transparent;
+  background: linear-gradient(to right, var(--primary-color), var(--terciary-color));
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.title-cards::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  margin: 1rem auto 0;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+}
 
 h2 {
   font-size: 2.25rem;
@@ -225,4 +249,22 @@ p {
     flex-wrap: wrap;
     margin: 0;
   }
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.432);
+  backdrop-filter: blur(20px);
+  bottom: 0;
+  width: 100%;
+  z-index: 199;
+  padding: 1rem;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer p {
+  color: white;
 }

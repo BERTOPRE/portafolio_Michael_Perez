@@ -1,6 +1,6 @@
 <template>
   <div class="container-content">
-    <h1>Contáctame</h1>
+    <h1 class="title-cards">Contáctame</h1>
     <p>Trabajemos juntos</p>
     <div class="icons-logo">
       <div class="icons">

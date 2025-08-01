@@ -1,6 +1,6 @@
 <template>
   <div class="container-content">
-    <h1>Mis Habilidades</h1>
+    <h1 class="title-cards">Mis Habilidades</h1>
     <p>
       Con experiencia en desarrollo web y móvil, combino diseño y código para crear interfaces
       intuitivas, responsivas y centradas en el usuario. Desde sitios web modernos hasta

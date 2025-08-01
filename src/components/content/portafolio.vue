@@ -1,7 +1,7 @@
 <template>
   <div class="container-content portafolio">
     <div class="principal-text">
-      <h1>Portafolio</h1>
+      <h1 class="title-cards">Portafolio</h1>
       <h2>Conoce mi trabajo...</h2>
     </div>
 
