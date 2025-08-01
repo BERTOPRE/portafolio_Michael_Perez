@@ -1,7 +1,7 @@
 <template>
   <div class="container-content">
     <h1 class="title-cards">Contáctame</h1>
-    <p>Trabajemos juntos</p>
+    <h4>Trabajemos juntos</h4>
     <div class="icons-logo">
       <div class="icons">
         <a href="mailto:mapereztau@gmail.com" target="_blank"
