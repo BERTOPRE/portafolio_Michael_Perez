@@ -2,7 +2,7 @@
   <div class="container-content portafolio">
     <div class="principal-text">
       <h1>Portafolio</h1>
-      <p>Conoce mi trabajo...</p>
+      <h2>Conoce mi trabajo...</h2>
     </div>
 
     <div class="cards">
