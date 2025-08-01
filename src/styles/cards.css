@@ -63,3 +63,53 @@
   color: var(--default-color);
   font-weight: 600;
 }
+.cards-apps {
+  padding: 2rem;
+  background-color: var(--secondary-color);
+}
+
+.cards-apps h2 {
+  text-align: center;
+  color: var(--default-color);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards-apps .cards-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.cards-apps .cards-portafolio {
+  background-color: white;
+  border: 2px solid var(--accent-color);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.cards-apps .cards-portafolio:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cards-apps .cards-portafolio img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-bottom: 1px solid var(--accent-color);
+  background-color: #f6f6f6;
+  padding: 10px;
+}
+
+.cards-apps .cards-portafolio p {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--default-color);
+}

@@ -31,11 +31,11 @@
       </div>
     </div>
 
-    <div class="cards">
+    <div class="cards-apps">
       <h2>APPS</h2>
       <div class="cards-items">
         <div class="cards-portafolio">
-          <img src="@/assets/imgs/proyectos/proyecto-1.png" alt="imagen de proyecto" />
+          <img src="@/assets/imgs/proyectos/proyecto-5.png" alt="imagen de proyecto" />
           <p>FinanzApp</p>
         </div>
       </div>
