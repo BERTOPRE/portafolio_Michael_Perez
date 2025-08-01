@@ -1,7 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <!-- <a class="navbar-brand" href="/">MPDev</a> -->
       <button
         class="navbar-toggler"
         type="button"
@@ -13,19 +12,21 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="nav-link">Inicio</router-link>
+            <a href="#inicio" class="nav-link">Inicio</a>
           </li>
           <li class="nav-item">
-            <router-link to="/sobre-nosotros" class="nav-link">Mis tecnologías</router-link>
+            <a href="#sobre-mi" class="nav-link">Mis tecnologías</a>
           </li>
           <li class="nav-item">
-            <router-link to="#" class="nav-link">Portafolio</router-link>
+            <a href="#portafolio" class="nav-link">Portafolio</a>
           </li>
         </ul>
-        <button type="button" class="btn btn-primary" id="btn-contact">Contáctame</button>
+
+        <a href="#contactame" class="btn" id="btn-contact">Contáctame</a>
       </div>
     </div>
   </nav>

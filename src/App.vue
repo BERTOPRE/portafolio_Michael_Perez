@@ -2,14 +2,23 @@
   <div>
     <div class="principal-container">
       <Navbar />
-      <Banner />
-      <SobreMi />
-      <Portafolio />
-      <Contactame />
+      <div id="inicio">
+        <Banner />
+      </div>
+      <section class="principal-container" id="sobre-mi">
+        <SobreMi />
+      </section>
+      <section class="principal-container" id="portafolio">
+        <Portafolio />
+      </section>
+      <section class="principal-container" id="contactame">
+        <Contactame />
+      </section>
     </div>
     <Footer />
   </div>
 </template>
+
 <script setup>
 import Navbar from './components/navbar/navbar.vue'
 import Banner from '@/components/content/banner.vue'

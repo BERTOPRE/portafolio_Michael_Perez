@@ -54,4 +54,5 @@ Estilos para barra de navegación
 
 .btn:hover {
   background-color: var(--default-color);
+  color: white;
 }
